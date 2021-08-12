@@ -6,9 +6,12 @@ import React from "react";
 function Navigation() {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>CapStone</div>
+      {/* <div className={classes.logo}>CapStone</div> */}
+      <div className={classes.logo_img}>
+        <img src="/Images/PL.png" alt="logo" className={classes.logoi}></img>
+      </div>
       <nav>
-        <ul>
+        <ul className={classes.nav}>
           <li>
             <Link to="/">HomePage</Link>
           </li>
