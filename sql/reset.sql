@@ -1,0 +1,4 @@
+DROP TABLE users CASCADE;
+DROP TABLE properties CASCADE;
+DROP TABLE categories CASCADE;
+DROP TABLE property_category CASCADE;
